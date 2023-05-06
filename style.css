@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color:#393E46;
 }
 
 .container{
-    background-color: white;
+    background-color: #EEEEEE;
     width: 70%;
     margin: auto;
     min-height: 100vh;
@@ -20,6 +20,7 @@ h1{
     font-family:  'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 30px;
+    color: #222831;
 }
 
 form{
@@ -39,7 +40,7 @@ input,textarea,button{
 }
 
 button{
-    background-color: rgba(50,50,50);
+    background-color:#222831;
     color: white;
     cursor: pointer;
     transition: background-color 0.4s;
@@ -47,29 +48,36 @@ button{
 }
 
 button:hover{
-    background-color: rgb(62, 57, 220);
+    background-color: #00b0b9;
 }
 
 .task{
-    background-color: rgba(247,247,247);
-    color: rgba(0, 0, 0, 0.834);
+    background-color: #222831;
+    color: #ffffff;
     font: 100 1.1rem ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px;
     display: flex;
     align-items: center;
     margin: 2vmax;
+    border-radius: 5px;
+    word-wrap: break-word;
 }
 
 .task > div{
-    width: 70%;
+    width: 90%;
 }
 
 .task span{
-    color: rgba(0, 0, 0, 0.622);
+    color: #EEEEEE;
+}
+
+.task p{
+    font-size: 1.2rem;
 }
 
 .deleteBtn{
+    color:#EEEEEE;
     border-radius: 100%;
     width: 30px;
     height: 30px;
